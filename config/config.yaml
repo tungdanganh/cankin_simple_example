@@ -1,0 +1,11 @@
+# Example
+SensorParams:
+  sensor_list:      ["Cam", "VLP16"]
+  VLP16:
+    type:           kLidar
+    max_range:      50.0
+    fov:            [rad(2*pi), rad(pi/6)]
+  Cam:
+    type:           kCamera
+    max_range:      5.0
+    fov:            [rad(pi/3.0), rad(pi/4.0)]
